@@ -1,0 +1,186 @@
+/* Globals */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-container {
+  padding: 5% 10%;
+}
+
+.flex {
+  display: flex;
+}
+
+section {
+  margin-top: 90px;
+}
+
+/* Specifics */
+.navigation-bar {
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+  color: #424242;
+}
+
+.hire-button {
+  margin-left: 12px;
+  justify-content: center;
+}
+
+.hire-button a {
+  width: 73px;
+  background-color: #5A47AB;
+  padding: 10px;
+  text-align: center;
+  flex-grow: 0;
+  font-size: 10px;
+  color: whitesmoke;
+  align-self: center;
+}
+
+.arrow-left {
+  width: 0px;
+  height: 0px;
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-right: 17px solid #5A47AB;
+}
+
+.navigation-bar nav a {
+  color: #424242;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 0px 15px;
+
+}
+
+.navigation-bar nav a.active {
+  color: #5A47AB;
+}
+
+.hero {
+  justify-content: space-between;
+}
+
+.hero .hero-left {
+  width: 50%;
+}
+
+.hero-left h1 {
+  margin-bottom: 0px;
+  font-size: 52px;
+  font-weight: 700;
+  color: #D05270;
+}
+
+.hero-left h2 {
+  margin-top: 12px;
+  margin-bottom: 0px;
+  font-size: 52px;
+  font-weight: 500;
+}
+
+.hero-left p {
+  margin-top: 32px;
+  font-size: 18px;
+  color: #424242;
+}
+
+.hero .hero-right {
+  background-color: #5A47AB;
+  width: 367px;
+  height: 408px;
+  border-radius: 10px;
+}
+
+.hero .hero-right .image-placeholder {
+  margin: auto;
+}
+
+.hero .social-button-group {
+  margin-top: 36px;
+  gap: 18px;
+}
+
+.hero .social-button-group button {
+  width: 201px;
+  height: 60px;
+  border: 0px;
+  color: whitesmoke;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.hero .social-button-group .twitter-button {
+  background-color: #47ACDF;
+}
+.hero .social-button-group .linkedin-button {
+  background-color: #1275B1;
+}
+.hero .social-button-group .medium-button {
+  background-color: #000000;
+}
+
+/* Newsletter CTA */
+.newsletter-cta {
+  background-color: #000000;
+  height: 8rem;
+  padding: 3rem;
+  color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-cta h3 {
+  font-size: 32px;
+}
+
+.newsletter-cta form {
+  gap: 1rem;
+}
+
+.newsletter-cta form button {
+  background-color: transparent;
+  border: 1px solid whitesmoke;
+  padding: 12px 16px;
+  text-transform: uppercase;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.newsletter-cta form button:hover {
+  background-color: whitesmoke;
+  color: #000000;
+}
+
+.newsletter-cta input[type=text] {
+  border: 0px;
+  background-color: transparent;
+  border-bottom: 1px solid #D05270;
+  width: 100%;
+  line-height: 28px;
+  color: lightslategray;
+  font-size: 20px;
+}
+
+.newsletter-cta input::placeholder {
+  color: whitesmoke;
+}
+
+.newsletter-cta input:focus {
+  outline: none;
+}
